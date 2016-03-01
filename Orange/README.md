@@ -1,5 +1,13 @@
 # Summary statistics for the "Orange" data set built into R
-This folder contains some summary statistics made for the "Orange" data set which can be called from .GlobalEnv in the following way
+This folder contains some summary statistics made for the "Orange" data set, which describes the growth of orange trees over time in a data frame. It contains 3 variables across 3 columns:
+
+1. Tree - this indicates the tree on which the measurement is made, ordered according to increasing maximum diameter
+
+2. Age - a numeric vector that gives the age of the trees in days since days since 1968/12/31
+
+3. Circumference - a numeric vector of trunk circumferences in millimeters
+
+The data set can be called from .GlobalEnv in the following way:
 ```r
 Orange <- Orange
 # or
